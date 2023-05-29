@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +35,93 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bnb-logo {
+  max-width: 100px;
+}
+nav {
+  /* height: 70px; */
+  padding: 10px 30px;
+  display: flex;
+  /* background-color: black; */
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1)
+}
+.heros {
+  max-width: 400px;
+  align-self: center;
+}
+.hero-container {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+/* .photogrid{
+  text-align: center;
+} */
+.experiences > section {
+  max-width: 300px;
+  margin-top: 0;
+}
+.experiences > h1 {
+  margin-bottom: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  margin-top: 15px;
+  flex: 0 0 auto;
+  font-size: 12px;
+  position: relative;
+}
+
+.katie {
+  width: 100%;
+  /* max-height: 300px; */
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.cards-list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+.description {
+  font-weight: 100; 
+  color: darkgrey;
+  /* padding: 5px 0; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price{
+  font-weight: bold;
+  margin-top: auto;
+}
+.price > .grey{
+  font-weight: lighter;
+  color: darkgrey;
+}
+.star{
+  /* margin-right: 5px; */
+  height: 14px;
+}
+.grey {
+  color: darkgrey;
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
