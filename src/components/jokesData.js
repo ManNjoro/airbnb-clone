@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default [
     {
         setup:'What did one tonsil say to the other?',

@@ -1,9 +1,9 @@
-import photogrid from '../images/photo-grid.png';
+// import photogrid from '../images/photo-grid.png';
 export default function Hero() {
     return(
         <div className="hero-container">
             <div className="photogrid">
-                <img src={photogrid} alt="heros" className="heros"></img>
+                <img src='./images/photo-grid.png' alt="heros" className="heros"></img>
             </div>
             <div className='experiences'>
                 <h1>Online Experiences</h1>

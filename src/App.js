@@ -14,8 +14,8 @@ function App() {
   const dataElements = data.map(d =>{
     return <Card
       key={d.id}
-      item={d}
-      // {...d}
+      // item={d}
+      {...d}
     />
   })
   return (
